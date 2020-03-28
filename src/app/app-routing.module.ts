@@ -7,7 +7,7 @@ import { RegisterComponent } from './register/register.component';
 import { PasswordForgetComponent } from './password-forget/password-forget.component';
 
 const routes: Routes = [
-  { path: '', component: LayoutComponent, loadChildren: './pages/pages.module#PagesModule' }, 
+  { path: '', component: LayoutComponent, loadChildren: './pages/pages.module#PagesModule' },
   { path: 'login', component: LoginComponent  },
   { path: 'register', component: RegisterComponent  },
   { path: 'password-forget', component: PasswordForgetComponent  }

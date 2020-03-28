@@ -26,6 +26,9 @@ export class Index1Component implements OnInit {
 
   closeResult: string;
   covidData = [];
+  public ghData = {};
+
+  myCountry = 'Ghana';
 
   id = 'JlvxDa7Sges';
   playerVars = {
@@ -58,10 +61,7 @@ export class Index1Component implements OnInit {
 
   ngOnInit() {
 
-    this.covidDataService.sendGetCovidData().subscribe((data: any[]) => {
-      console.log(data);
-      this.covidData = data;
-    });
+    this.loadCovidData();
 
     document.getElementById('navbar1').classList.add('navbar-white');
 
@@ -75,6 +75,25 @@ export class Index1Component implements OnInit {
          navbar1.style.backgroundColor = '';
        }
      }
+   }
+
+
+
+   loadCovidData() {
+    this.covidDataService.sendGetCovidData().subscribe((data: any[]) => {
+      this.covidData = data.Countries;
+      this.checkCovidData(data.Countries);
+    });
+   }
+
+
+   checkCovidData(data: [] ) {
+      data.forEach( value => {
+          if(value.Country == 'Ghana'){
+            this.ghData = value;
+            console.log(this.ghData);
+          }
+      });
    }
 
 }

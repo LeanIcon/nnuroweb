@@ -24,6 +24,40 @@
                      <p class="padding-t-15 home-desc mx-auto"> Manage your Medical items and drugs here.</p>
                  </div>
              </div>
+             <!-- <div *ngIf="ghData">
+               <h4>{{ghData.TotalConfirmed}}</h4>
+             </div> -->
+             <div class="row" *ngIf="covidData">
+                <ng-template [ngIf]="ghData">
+
+                    <div class="col-lg-12 mt-2">
+                     <span class="counter-number  text-center  text-white">{{ghData.Country}}</span>
+                      <div class="card card-block p-25 bg-warning" style="border-radius: 0px !important;">
+                         <div class="home-title text-uppercase text-center text-white">Total Cases</div>
+                         <span class="counter-number  text-center  text-white">{{ghData.TotalConfirmed}}</span>
+                     </div>
+                    </div>
+                    <div class="col-lg-6 mt-2 ">
+                      <div class="card card-block p-25 bg-success" style="border-radius: 0px !important;">
+                         <div class="counter-label text-uppercase text-center text-white">Recovered</div>
+                         <span class="counter-number  text-center text-white">{{ghData.TotalRecovered}}</span>
+                     </div>
+                    </div>
+                    <div class="col-lg-6 mt-2 ">
+                      <div class="card card-block p-25 bg-danger" style="border-radius: 0px !important;">
+                         <div class="counter-label text-uppercase text-center text-white">Died</div>
+                         <span class="counter-number  text-center text-white">{{ghData.TotalDeaths}}</span>
+                     </div>
+                    </div>
+                    <div class="col-lg-12 mt-2 ">
+                     <div class="card card-block p-25 bg-info" style="border-radius: 0px !important;">
+                        <div class="counter-label text-uppercase text-center text-white">New Cases</div>
+                        <span class="counter-number  text-center text-white">{{ghData.NewConfirmed}}</span>
+                    </div>
+                  </div>
+                </ng-template>
+
+             </div>
          </div>
         </section>
   </div>

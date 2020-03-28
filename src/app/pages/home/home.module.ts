@@ -39,7 +39,6 @@ import { Index1Component } from './index1/index1.component';
     NgxYoutubePlayerModule.forRoot(),
     HomeRoutingModule,
     ParticlesModule,
-    CovidNewsService
   ]
 })
 export class HomeModule {}
