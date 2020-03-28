@@ -1,3 +1,4 @@
+import { CovidNewsService } from './../../../services/covidNews.service';
 import { Component, OnInit, ViewEncapsulation  } from '@angular/core';
 import {NgbModal} from '@ng-bootstrap/ng-bootstrap';
 import { ScrollSpyService } from 'ngx-scrollspy';
@@ -24,6 +25,7 @@ import { ScrollSpyService } from 'ngx-scrollspy';
 export class Index1Component implements OnInit {
 
   closeResult: string;
+  covidData = [];
 
   id = 'JlvxDa7Sges';
   playerVars = {
@@ -33,7 +35,7 @@ export class Index1Component implements OnInit {
   private player;
   private ytEvent;
 
-  constructor(private modalService: NgbModal) {}
+  constructor(private modalService: NgbModal, private covidDataService: CovidNewsService) {}
 
 
   onStateChange(event) {
@@ -55,6 +57,11 @@ export class Index1Component implements OnInit {
 
 
   ngOnInit() {
+
+    this.covidDataService.sendGetCovidData().subscribe((data: any[]) => {
+      console.log(data);
+      this.covidData = data;
+    });
 
     document.getElementById('navbar1').classList.add('navbar-white');
 

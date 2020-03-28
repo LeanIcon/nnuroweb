@@ -1,3 +1,4 @@
+import { CovidNewsService } from './../../services/covidNews.service';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
@@ -37,7 +38,8 @@ import { Index1Component } from './index1/index1.component';
     CommonModule,
     NgxYoutubePlayerModule.forRoot(),
     HomeRoutingModule,
-    ParticlesModule
+    ParticlesModule,
+    CovidNewsService
   ]
 })
 export class HomeModule {}
