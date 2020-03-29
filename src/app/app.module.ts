@@ -1,3 +1,4 @@
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeModule } from './pages/home/home.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -22,6 +23,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     LayoutModule,
     AppRoutingModule,
+    NgbModule,
     HttpClientModule,
     BrowserAnimationsModule,  // Add this only in the root module
   ],

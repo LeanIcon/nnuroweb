@@ -1,3 +1,4 @@
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CovidNewsService } from './../../services/covidNews.service';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -38,6 +39,7 @@ import { Index1Component } from './index1/index1.component';
     CommonModule,
     NgxYoutubePlayerModule.forRoot(),
     HomeRoutingModule,
+    NgbModule.forRoot(),
     ParticlesModule,
   ]
 })
