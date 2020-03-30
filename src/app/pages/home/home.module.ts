@@ -1,3 +1,7 @@
+import { CovidComponent } from './../covid/covid.component';
+import { NewsComponent } from './../news/news.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CovidNewsService } from './../../services/covidNews.service';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeRoutingModule } from './home-routing.module';
@@ -31,13 +35,16 @@ import { Index1Component } from './index1/index1.component';
     TestiComponent,
     ClientComponent,
     FeatureComponent,
+    NewsComponent,
+    CovidComponent,
     // ComponentToLoad,
   ],
   imports: [
     CommonModule,
     NgxYoutubePlayerModule.forRoot(),
     HomeRoutingModule,
-    ParticlesModule
+    NgbModule.forRoot(),
+    ParticlesModule,
   ]
 })
 export class HomeModule {}
