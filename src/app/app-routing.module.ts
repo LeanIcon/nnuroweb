@@ -1,3 +1,4 @@
+import { AboutComponent } from './pages/about/about.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { LayoutComponent } from './layout/layout/layout.component';
