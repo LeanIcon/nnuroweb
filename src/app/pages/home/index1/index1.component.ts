@@ -1,3 +1,4 @@
+import { Observable } from 'rxjs/Observable';
 import { CovidNewsService } from './../../../services/covidNews.service';
 import { Component, OnInit, ViewEncapsulation  } from '@angular/core';
 import {NgbModal} from '@ng-bootstrap/ng-bootstrap';
@@ -80,16 +81,16 @@ export class Index1Component implements OnInit {
 
 
    loadCovidData() {
-    this.covidDataService.sendGetCovidData().subscribe((data: any[]) => {
+    this.covidDataService.sendGetCovidData().subscribe((data: any) => {
       this.covidData = data.Countries;
       this.checkCovidData(data.Countries);
     });
    }
 
 
-   checkCovidData(data: [] ) {
+   checkCovidData(data) {
       data.forEach( value => {
-          if(value.Country == 'Ghana'){
+          if( value.Country === 'Ghana') {
             this.ghData = value;
             console.log(this.ghData);
           }
