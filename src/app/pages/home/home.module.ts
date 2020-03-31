@@ -1,3 +1,5 @@
+import { PostComponent } from './../post/post.component';
+import { CovidNewsComponent } from './../covid-news/covid-news.component';
 import { CovidComponent } from './../covid/covid.component';
 import { NewsComponent } from './../news/news.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -37,6 +39,9 @@ import { Index1Component } from './index1/index1.component';
     FeatureComponent,
     NewsComponent,
     CovidComponent,
+    CovidNewsComponent,
+    PostComponent,
+    CovidComponent
     // ComponentToLoad,
   ],
   imports: [

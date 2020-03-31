@@ -1,3 +1,4 @@
+import { PostService } from './../../../services/post.service';
 import { Observable } from 'rxjs/Observable';
 import { CovidNewsService } from './../../../services/covidNews.service';
 import { Component, OnInit, ViewEncapsulation  } from '@angular/core';
@@ -39,7 +40,7 @@ export class Index1Component implements OnInit {
   private player;
   private ytEvent;
 
-  constructor(private modalService: NgbModal, private covidDataService: CovidNewsService) {}
+  constructor(private modalService: NgbModal, private covidDataService: CovidNewsService, private postService: PostService) {}
 
 
   onStateChange(event) {
@@ -63,6 +64,7 @@ export class Index1Component implements OnInit {
   ngOnInit() {
 
     this.loadCovidData();
+    this.loadPostData();
 
     document.getElementById('navbar1').classList.add('navbar-white');
 
@@ -85,6 +87,12 @@ export class Index1Component implements OnInit {
       this.covidData = data.Countries;
       this.checkCovidData(data.Countries);
     });
+   }
+
+   loadPostData() {
+      this.postService.getPostsData().subscribe((data: any) => {
+        console.log(data);
+      });
    }
 
 
