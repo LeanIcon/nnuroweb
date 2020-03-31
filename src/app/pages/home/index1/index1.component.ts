@@ -1,3 +1,6 @@
+import { PostService } from './../../../services/post.service';
+import { Observable } from 'rxjs/Observable';
+import { CovidNewsService } from './../../../services/covidNews.service';
 import { Component, OnInit, ViewEncapsulation  } from '@angular/core';
 import {NgbModal} from '@ng-bootstrap/ng-bootstrap';
 import { ScrollSpyService } from 'ngx-scrollspy';
@@ -24,6 +27,10 @@ import { ScrollSpyService } from 'ngx-scrollspy';
 export class Index1Component implements OnInit {
 
   closeResult: string;
+  covidData = [];
+  public ghData = {};
+
+  myCountry = 'Ghana';
 
   id = 'JlvxDa7Sges';
   playerVars = {
@@ -33,7 +40,7 @@ export class Index1Component implements OnInit {
   private player;
   private ytEvent;
 
-  constructor(private modalService: NgbModal) {}
+  constructor(private modalService: NgbModal, private covidDataService: CovidNewsService, private postService: PostService) {}
 
 
   onStateChange(event) {
@@ -56,6 +63,9 @@ export class Index1Component implements OnInit {
 
   ngOnInit() {
 
+    this.loadCovidData();
+    this.loadPostData();
+
     document.getElementById('navbar1').classList.add('navbar-white');
 
     window.onscroll = function() { myFunction(); };
@@ -68,6 +78,31 @@ export class Index1Component implements OnInit {
          navbar1.style.backgroundColor = '';
        }
      }
+   }
+
+
+
+   loadCovidData() {
+    this.covidDataService.sendGetCovidData().subscribe((data: any) => {
+      this.covidData = data.Countries;
+      this.checkCovidData(data.Countries);
+    });
+   }
+
+   loadPostData() {
+      this.postService.getPostsData().subscribe((data: any) => {
+        console.log(data);
+      });
+   }
+
+
+   checkCovidData(data) {
+      data.forEach( value => {
+          if( value.Country === 'Ghana') {
+            this.ghData = value;
+            console.log(this.ghData);
+          }
+      });
    }
 
 }
