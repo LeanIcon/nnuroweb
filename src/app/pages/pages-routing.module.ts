@@ -1,3 +1,4 @@
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { ContactComponent } from './contact/contact.component';
 import { ServicesComponent } from './services/services.component';
 import { CovidComponent } from './covid/covid.component';
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'covid', component: CovidComponent },
   { path: 'services', component: ServicesComponent },
   { path: 'contact', component: ContactComponent },
+  { path: 'privacy-policy', component: PrivacyPolicyComponent },
 ];
 
 @NgModule({
