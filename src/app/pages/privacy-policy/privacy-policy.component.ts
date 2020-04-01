@@ -7,7 +7,7 @@ import { NgbAccordion, NgbPanelChangeEvent } from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./privacy-policy.component.css']
 })
 export class PrivacyPolicyComponent implements OnInit {
-  @ViewChild('myaccordion', ) accordion: NgbAccordion;
+  @ViewChild('myaccordion', { static : true}) accordion: NgbAccordion;
 
   constructor() { }
 
