@@ -1,0 +1,54 @@
+<section
+  class="section bg-home home-half"
+  id="home"
+  data-image-src="assets/images/bg-home.jpg">
+  <div class="bg-overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 offset-lg-2 text-white text-center">
+        <h4 class="home-small-title">Welcome To Nnuro</h4>
+        <h1 class="home-title">Privacy Policy</h1>
+        <p class="padding-t-15 home-desc mx-auto">Terms &amp; Conditions</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="col-lg-8 offset-lg-2 text-center">
+    <h3 class="home-title">Terms &amp; Conditions</h3>
+    <p class="padding-t-15 home-desc mx-auto text-primary ">To use the Nnuro website and app please ensure that you read and abide by the following terms and conditions.</p>
+  </div>
+  <div class="container">
+    <div class="row margin-t-30 col-lg-12 mx-auto">
+      <ngb-accordion
+      #myaccordion="ngbAccordion"
+      activeIds="panelOne"
+      closeOthers="true"
+      type="'success'"
+      (panelChange)="beforeChange($event)"
+      >
+        <ngb-panel title="Fair use of site" id="panelOne">
+          <ng-template ngbPanelContent>
+            We are not responsible for any damages caused by the use of this website. Any content (text, image or other media) posted in a search or reply is entirely the responsibility of the user. Please use our site at your own discretion and exercise good judgement as well as common sense when posting or receiving information here.
+          </ng-template>
+      </ngb-panel>
+      <ngb-panel title="Business deletion" id="panelTwo">
+          <ng-template ngbPanelContent>
+            We reserve the right to remove any business listings if we feel that they're infringing on any laws or if they contain objectionable material such as adult content (including images, vulgar language, content or links).
+          </ng-template>
+      </ngb-panel>
+      <ngb-panel title="Security and privacy" id="panelThree">
+          <ng-template ngbPanelContent>
+            We make every possible attempt to keep your personal information safe, using the latest technology in Internet security. However, you should be aware that our site, as well as any other site, can potentially be a target for hackers. Please do not post any information on the site that is sensitive or that you would not want disclosed in case of an unlikely security breach. We use cookies to store information locally for advanced features of the site's operation, such as notifications and authentication. Your personal details are not shared, rented or sold to any external companies or advertisers under any circumstances. We do not keep records of your payment details. Your bank, Visa or mobile money platform is responsible for any information related to payments made on this platform.
+          </ng-template>
+      </ngb-panel>
+      <ngb-panel title="Governing Law" id="panelFour">
+          <ng-template ngbPanelContent>
+            These Terms shall be governed and construed in accordance with the laws of Ghana, without regard to its conflict of law provisions. Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between us regarding our Service, and supersede and replace any prior agreements we might have between us regarding the Service.
+          </ng-template>
+      </ngb-panel>
+      </ngb-accordion>
+    </div>
+  </div>
+</section>
