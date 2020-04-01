@@ -1,3 +1,4 @@
+import { PrivacyPolicyComponent } from './../privacy-policy/privacy-policy.component';
 import { PostComponent } from './../post/post.component';
 import { CovidComponent } from './../covid/covid.component';
 import { NewsComponent } from './../news/news.component';
@@ -39,7 +40,8 @@ import { Index1Component } from './index1/index1.component';
     NewsComponent,
     CovidComponent,
     PostComponent,
-    CovidComponent
+    CovidComponent,
+    PrivacyPolicyComponent
     // ComponentToLoad,
   ],
   imports: [
