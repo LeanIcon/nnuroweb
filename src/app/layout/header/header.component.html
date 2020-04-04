@@ -1,8 +1,9 @@
-<nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky sticky-dark" id="navbar1">
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark sticky sticky-dark" id="navbar1">
     <div class="container">
         <!-- LOGO -->
-        <a class="navbar-brand logo text-uppercase" routerLink="/">
-            <i class="mdi mdi-hospital"></i>NNURO
+        <a class="navbar-brand" routerLink="/">
+            <!-- <i class="mdi mdi-hospital"></i>NNURO -->
+            <img src="./assets/images/nnlogo.png" alt="NNURO" width="90px;" />
         </a>
 
         <button class="navbar-toggler" (click)="toggleMenu()" type="button" id="menu_button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,29 +12,28 @@
         <div class="collapse navbar-collapse" id="navbarCollapse" scrollSpy>
             <ul class="navbar-nav navbar-center" id="mySidenav">
                 <li class="nav-item">
-                    <a data="id_home"  [ngx-scroll-to]="'#home'" class="nav-link">Home</a>
-                </li>
-                <!-- <li class="nav-item">
-                    <a data="id_features"  [ngx-scroll-to]="'#features'" class="nav-link">Features</a>
-                </li> -->
-                <li class="nav-item">
-                    <a data="id_features"  routerLink="/news" class="nav-link">NEWS</a>
+                    <a data="" routerLink="/"  class="nav-link text-white">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a data="id_services"  routerLink="/covid" class="nav-link">COVID-19</a>
+                    <a data=""  routerLink="/news" class="nav-link text-white">NEWS</a>
                 </li>
                 <li class="nav-item">
-                    <a data="id_about" routerLink="/services" class="nav-link">Services</a>
+                    <a data=""  routerLink="/covid" class="nav-link text-white">COVID-19</a>
                 </li>
                 <li class="nav-item">
-                    <a data="id_about" routerLink="/about" class="nav-link">About</a>
+                    <a data="" routerLink="/services" class="nav-link text-white">Services</a>
                 </li>
-                <!-- <li class="nav-item">
-                    <a data="id_about" [ngx-scroll-to]="'#about'" class="nav-link">About</a>
-                </li> -->
+                <li class="nav-item">
+                    <a data="" routerLink="/about" class="nav-link text-white">About</a>
+                </li>
             </ul>
             <div class="nav-button ml-auto">
                 <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <form class="form form-inline">
+                            <input type="text" class="form-control mr-2" placeholder="Search" aria-label="Search" style="height: 40px !important;">
+                          </form>
+                    </li>
                     <li>
                         <button type="button" class="btn btn-custom navbar-btn btn-rounded waves-effect waves-light">Register</button>
                     </li>
