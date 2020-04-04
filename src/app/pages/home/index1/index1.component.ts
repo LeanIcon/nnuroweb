@@ -8,21 +8,22 @@ import { ScrollSpyService } from 'ngx-scrollspy';
 @Component({
   selector: 'app-index1',
   templateUrl: './index1.component.html',
+  styleUrls: ['./index1.component.css'],
   encapsulation: ViewEncapsulation.None,
-  styles: [`
-    .dark-modal .modal-content {
-      background-color: #000000;
-      color: white;
-      background: none;
-      border: none;
-    }
-    .dark-modal .modal-header {
-      border : none
-    }
-    .dark-modal .close {
-      color: white;
-    }
-  `]
+  // styles: [`
+  //   .dark-modal .modal-content {
+  //     background-color: #000000;
+  //     color: white;
+  //     background: none;
+  //     border: none;
+  //   }
+  //   .dark-modal .modal-header {
+  //     border : none
+  //   }
+  //   .dark-modal .close {
+  //     color: white;
+  //   }
+  // `]
 })
 export class Index1Component implements OnInit {
 
