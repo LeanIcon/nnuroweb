@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CovidNewsService } from '../../services/covidNews.service';
 
 @Component({
   selector: 'app-covid',
@@ -7,9 +8,38 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CovidComponent implements OnInit {
 
-  constructor() { }
+  closeResult: string;
+  covidData = [];
+  public ghData = {};
+
+  myCountry = 'Ghana';
+
+  constructor(private covidDataService: CovidNewsService) { }
 
   ngOnInit() {
+    console.log('Covid component loaded');
+    this.loadCovidData();
   }
+
+
+
+
+  loadCovidData() {
+    this.covidDataService.sendGetCovidData().subscribe((data: any) => {
+      this.covidData = data.Countries;
+      this.checkCovidData(data.Countries);
+    });
+   }
+
+   checkCovidData(data) {
+      data.forEach( value => {
+          if( value.Country === 'Ghana') {
+            this.ghData = value;
+            console.log(this.ghData);
+          }
+      });
+   }
+
+
 
 }

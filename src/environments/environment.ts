@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  AUTH_API_APP_NAME: 'gwcl_web_portal',
+  AUTH_API_APP_NAME: 'NNuro',
   AUTH_API_URL: 'http://127.0.0.1:8000/api',
   API_URL: 'http://localhost/phpapi/public/api',
   AUTH_API_CLIENT_ID: '',

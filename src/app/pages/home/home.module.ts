@@ -22,6 +22,7 @@ import { ParticlesModule } from 'angular-particle';
 
 import { Index1Component } from './index1/index1.component';
 // import { ComponentToLoad } from './dir/dirfile.component';
+import { ShopComponent } from '../shop/shop.component';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { Index1Component } from './index1/index1.component';
     CovidComponent,
     PostComponent,
     CovidComponent,
-    PrivacyPolicyComponent
+    PrivacyPolicyComponent,
+    ShopComponent
     // ComponentToLoad,
   ],
   imports: [
