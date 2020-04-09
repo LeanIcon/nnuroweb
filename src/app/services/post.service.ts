@@ -9,10 +9,10 @@ import { Injectable } from '@angular/core';
 export class PostService {
 
 constructor(private httpClient: HttpClient) { }
-//   private API_URL = environment.API_URL;
-//   private POST_URL = '/post';
+  private API_URL = environment.API_URL;
+  private POST_URL = '/post';
 
-//  public getPostsData(): Observable<any> {
-//     return this.httpClient.get(this.API_URL + this.POST_URL);
-//   }
+ public getPostsData(): Observable<any> {
+    return this.httpClient.get(this.API_URL + this.POST_URL);
+  }
 }

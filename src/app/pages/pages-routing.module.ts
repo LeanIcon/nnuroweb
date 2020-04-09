@@ -6,6 +6,7 @@ import { NewsComponent } from './news/news.component';
 import { AboutComponent } from './about/about.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { ShopComponent } from './shop/shop.component';
 
 const routes: Routes = [
   { path: '', loadChildren: './home/home.module#HomeModule' },
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'services', component: ServicesComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'privacy-policy', component: PrivacyPolicyComponent },
+  { path: 'shop', component: ShopComponent },
 ];
 
 @NgModule({
