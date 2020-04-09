@@ -26,12 +26,12 @@ a {
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 4rem;
-  padding: 4rem;
+  padding: 0rem;
   margin: 0 auto;
   width: max-content;
 }
 
-.card {
+.new-card {
   font-family: 'Heebo';
   --bg-filter-opacity: 0.5;
   background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
@@ -46,7 +46,7 @@ a {
   align-items: flex-end;
   background-size: cover;
   background-position: center;
-  box-shadow: 0 0 5em -1em black;
+  /* box-shadow: 0 0 5em -1em black; */
   transition: all, var(--transition-time);
   position: relative;
   overflow: hidden;
@@ -54,28 +54,28 @@ a {
   text-decoration: none;
 }
 
-.card:hover {
+.new-card:hover {
   transform: rotate(0);
 }
 
-.card h1 {
+.new-card h1 {
   margin: 0;
   font-size: 1.5em;
   line-height: 1.2em;
 }
 
-.card p {
+.new-card p {
   font-size: 0.75em;
   font-family: 'Open Sans';
   margin-top: 0.5em;
   line-height: 2em;
 }
 
-.card .tags {
+.new-card .tags {
   display: flex;
 }
 
-.card .tags .tag {
+.new-card .tags .tag {
   font-size: 0.75em;
   background: rgba(255,255,255,0.5);
   border-radius: 0.3rem;
@@ -85,12 +85,12 @@ a {
   transition: all, var(--transition-time);
 }
 
-.card:hover .tags .tag {
+.new-card:hover .tags .tag {
   background: var(--color);
   color: white;
 }
 
-.card .date {
+.new-card .date {
   position: absolute;
   top: 0;
   right: 0;
@@ -100,7 +100,7 @@ a {
   opacity: .8;
 }
 
-.card:before, .card:after {
+.new-card:before, .card:after {
   content: '';
   transform: scale(0);
   transform-origin: top left;
@@ -113,23 +113,23 @@ a {
   transition-timing-function: ease-in-out;
 }
 
-.card:before {
+.new-card:before {
   background: #ddd;
   width: 250%;
   height: 250%;
 }
 
-.card:after {
+.new-card:after {
   background: white;
   width: 200%;
   height: 200%;
 }
 
-.card:hover {
+.new-card:hover {
   color: var(--color);
 }
 
-.card:hover:before, .card:hover:after {
+.new-card:hover:before, .card:hover:after {
   transform: scale(1);
 }
 
@@ -172,16 +172,16 @@ a {
     justify-content: center;
   }
   .card-grid-space .num {
-    /margin-left: 0;
-    /text-align: center;
+    margin-left: 0;
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 500px) {
   .cards-wrapper {
-    padding: 4rem 2rem; 
+    padding: 0rem 0rem; 
   }
-  .card {
+  .new-card {
     max-width: calc(100vw - 4rem);
   }
 }
