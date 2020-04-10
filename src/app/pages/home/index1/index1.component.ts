@@ -30,6 +30,7 @@ export class Index1Component implements OnInit {
   closeResult: string;
   covidData = [];
   public ghData = {};
+  ghCorona = {};
 
   myCountry = 'Ghana';
 
@@ -66,6 +67,7 @@ export class Index1Component implements OnInit {
 
     this.loadCovidData();
     this.loadPostData();
+    this.loadGhCoronaData();
 
     document.getElementById('navbar1').classList.add('navbar-white');
 
@@ -88,6 +90,14 @@ export class Index1Component implements OnInit {
       this.covidData = data.Countries;
       this.checkCovidData(data.Countries);
     });
+   }
+
+   loadGhCoronaData() {
+     this.covidDataService.loadCovidDataGH().subscribe((data) => {
+        console.log(data);
+        this.ghCorona = data[data.length - 1];
+        console.log(this.ghCorona);
+     });
    }
 
    loadPostData() {

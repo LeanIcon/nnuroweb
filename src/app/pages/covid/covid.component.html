@@ -63,7 +63,34 @@
                       <h4>{{ghData.TotalConfirmed}}</h4>
                     </div> -->
                     <div class="row" *ngIf="covidData">
-                       <ng-template [ngIf]="ghData">
+                      <ng-template [ngIf]="ghCorona">
+                        <div class="col-lg-12 mt-2">
+                         <span class="counter-number  text-center  text-white">{{ghCorona.Country}}</span>
+                          <div class="card card-block p-25 bg-warning" style="border-radius: 0px !important;">
+                             <div class="home-title text-uppercase text-center text-white">Total Cases</div>
+                             <span class="counter-number  text-center  text-white">{{ghCorona.Confirmed}}</span>
+                         </div>
+                        </div>
+                        <div class="col-lg-6 mt-2 ">
+                          <div class="card card-block p-25 bg-success" style="border-radius: 0px !important;">
+                             <div class="counter-label text-uppercase text-center text-white">Recovered</div>
+                             <span class="counter-number  text-center text-white">{{ghCorona.Recovered}}</span>
+                         </div>
+                        </div>
+                        <div class="col-lg-6 mt-2 ">
+                          <div class="card card-block p-25 bg-danger" style="border-radius: 0px !important;">
+                             <div class="counter-label text-uppercase text-center text-white">Deaths</div>
+                             <span class="counter-number  text-center text-white">{{ghCorona.Deaths}}</span>
+                         </div>
+                        </div>
+                        <!-- <div class="col-lg-12 mt-2 ">
+                         <div class="card card-block p-25 bg-info" style="border-radius: 0px !important;">
+                            <div class="counter-label text-uppercase text-center text-white">New Cases</div>
+                            <span class="counter-number  text-center text-white">{{ghCorona.NewConfirmed}}</span>
+                        </div>
+                      </div> -->
+                    </ng-template>
+                       <!-- <ng-template [ngIf]="ghData">
                            <div class="col-lg-12 mt-2">
                             <span class="counter-number  text-center  text-white">{{ghData.Country}}</span>
                              <div class="card card-block p-25 bg-warning" style="border-radius: 0px !important;">
@@ -89,7 +116,7 @@
                                <span class="counter-number  text-center text-white">{{ghData.NewConfirmed}}</span>
                            </div>
                          </div>
-                       </ng-template>
+                       </ng-template> -->
                      </div>
                    </div>
         </div>

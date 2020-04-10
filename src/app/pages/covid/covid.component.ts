@@ -12,6 +12,8 @@ export class CovidComponent implements OnInit {
   covidData = [];
   public ghData = {};
 
+  ghCorona = {};
+
   myCountry = 'Ghana';
 
   constructor(private covidDataService: CovidNewsService) { }
@@ -30,6 +32,14 @@ export class CovidComponent implements OnInit {
       this.checkCovidData(data.Countries);
     });
    }
+
+   loadGhCoronaData() {
+    this.covidDataService.loadCovidDataGH().subscribe((data) => {
+       console.log(data);
+       this.ghCorona = data[data.length - 1];
+       console.log(this.ghCorona);
+    });
+  }
 
    checkCovidData(data) {
       data.forEach( value => {
