@@ -21,6 +21,7 @@ export class CovidComponent implements OnInit {
   ngOnInit() {
     console.log('Covid component loaded');
     this.loadCovidData();
+    this.loadGhCoronaData();
   }
 
 
