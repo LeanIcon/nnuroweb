@@ -21,8 +21,10 @@ import { NgxYoutubePlayerModule } from 'ngx-youtube-player';
 import { ParticlesModule } from 'angular-particle';
 
 import { Index1Component } from './index1/index1.component';
+import { HomeAboutComponent } from '../home-about/home-about.component';
 // import { ComponentToLoad } from './dir/dirfile.component';
 import { ShopComponent } from '../shop/shop.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 
 @NgModule({
@@ -43,6 +45,7 @@ import { ShopComponent } from '../shop/shop.component';
     PostComponent,
     CovidComponent,
     PrivacyPolicyComponent,
+    HomeAboutComponent,
     ShopComponent
     // ComponentToLoad,
   ],
@@ -52,6 +55,7 @@ import { ShopComponent } from '../shop/shop.component';
     HomeRoutingModule,
     NgbModule.forRoot(),
     ParticlesModule,
+    SlickCarouselModule,
   ]
 })
 export class HomeModule {}
