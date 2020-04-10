@@ -28,7 +28,9 @@
               "src/assets/css/waves.css",
               "src/assets/css/bootstrap.min.css",
               "src/assets/css/magnific-popup.css",
-              "src/assets/scss/style.scss"
+              "src/assets/scss/style.scss",
+              "./node_modules/slick-carousel/slick/slick.scss",
+              "./node_modules/slick-carousel/slick/slick-theme.scss"
             ],
             "scripts": [],
             "es5BrowserSupport": true
@@ -87,7 +89,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "./node_modules/slick-carousel/slick/slick.min.js",
+              "./node_modules/jquery/dist/jquery.min.js"
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
