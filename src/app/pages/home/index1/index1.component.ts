@@ -66,7 +66,7 @@ export class Index1Component implements OnInit {
   ngOnInit() {
 
     this.loadCovidData();
-    this.loadPostData();
+    // this.loadPostData();
     this.loadGhCoronaData();
 
     document.getElementById('navbar1').classList.add('navbar-white');
@@ -100,11 +100,11 @@ export class Index1Component implements OnInit {
      });
    }
 
-   loadPostData() {
-      this.postService.getPostsData().subscribe((data: any) => {
-        console.log(data);
-      });
-   }
+  //  loadPostData() {
+  //     this.postService.getPostsData().subscribe((data: any) => {
+  //       console.log(data);
+  //     });
+  //  }
 
 
    checkCovidData(data) {
