@@ -25,6 +25,8 @@ import { HomeAboutComponent } from '../home-about/home-about.component';
 // import { ComponentToLoad } from './dir/dirfile.component';
 import { ShopComponent } from '../shop/shop.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { SubhomeComponent } from '../subhome/subhome.component';
+import { WhychooseComponent } from '../subhome/whychoose/whychoose.component';
 
 
 @NgModule({
@@ -46,7 +48,9 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     CovidComponent,
     PrivacyPolicyComponent,
     HomeAboutComponent,
-    ShopComponent
+    ShopComponent,
+    SubhomeComponent, 
+    WhychooseComponent
     // ComponentToLoad,
   ],
   imports: [
