@@ -27,6 +27,7 @@ import { ShopComponent } from '../shop/shop.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { SubhomeComponent } from '../subhome/subhome.component';
 import { WhychooseComponent } from '../subhome/whychoose/whychoose.component';
+import { OurproductComponent } from '../ourproduct/ourproduct.component';
 
 
 @NgModule({
@@ -50,7 +51,8 @@ import { WhychooseComponent } from '../subhome/whychoose/whychoose.component';
     HomeAboutComponent,
     ShopComponent,
     SubhomeComponent, 
-    WhychooseComponent
+    WhychooseComponent,
+    OurproductComponent
     // ComponentToLoad,
   ],
   imports: [
