@@ -19,6 +19,8 @@ import { ContactComponent } from '../contact/contact.component';
 import { TestiComponent } from '../testi/testi.component';
 import { NgxYoutubePlayerModule } from 'ngx-youtube-player';
 import { ParticlesModule } from 'angular-particle';
+import { FormpageComponent } from '../formpage/formpage.component';
+
 
 import { Index1Component } from './index1/index1.component';
 import { HomeAboutComponent } from '../home-about/home-about.component';
@@ -46,7 +48,8 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     CovidComponent,
     PrivacyPolicyComponent,
     HomeAboutComponent,
-    ShopComponent
+    ShopComponent,
+    FormpageComponent,
     // ComponentToLoad,
   ],
   imports: [
