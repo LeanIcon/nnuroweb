@@ -12,6 +12,7 @@ import { RegisterComponent } from './register/register.component';
 import { PasswordForgetComponent } from './password-forget/password-forget.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+//import { ProductpageComponent } from './productpage/productpage.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     LoginComponent,
     RegisterComponent,
     PasswordForgetComponent,
+    //ProductpageComponent,
   ],
   imports: [
     BrowserModule,

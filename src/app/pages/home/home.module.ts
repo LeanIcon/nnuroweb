@@ -20,6 +20,7 @@ import { TestiComponent } from '../testi/testi.component';
 import { NgxYoutubePlayerModule } from 'ngx-youtube-player';
 import { ParticlesModule } from 'angular-particle';
 import { FormpageComponent } from '../formpage/formpage.component';
+import { ProductpageComponent } from '../productpage/productpage.component';
 
 
 import { Index1Component } from './index1/index1.component';
@@ -50,6 +51,7 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     HomeAboutComponent,
     ShopComponent,
     FormpageComponent,
+    ProductpageComponent,
     // ComponentToLoad,
   ],
   imports: [
