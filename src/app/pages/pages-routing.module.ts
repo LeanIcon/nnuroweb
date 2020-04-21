@@ -8,6 +8,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ShopComponent } from './shop/shop.component';
 import { OurproductComponent } from './ourproduct/ourproduct.component';
+import { FormpageComponent } from './formpage/formpage.component';
 
 const routes: Routes = [
   { path: '', loadChildren: './home/home.module#HomeModule' },
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'privacy-policy', component: PrivacyPolicyComponent },
   { path: 'shop', component: ShopComponent },
   { path: 'ourproduct', component: OurproductComponent },
+  { path: 'formpage', component: FormpageComponent },
 ];
 
 @NgModule({
