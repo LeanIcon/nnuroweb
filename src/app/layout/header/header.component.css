@@ -2,3 +2,10 @@ a
 {
     cursor: pointer;
 }
+.navbar-white {
+    margin-top: 0px;
+    padding: 10px 0px !important;
+    background-color: #162021 !important;
+    box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
+    color: #fff !important;
+}

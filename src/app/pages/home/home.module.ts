@@ -30,6 +30,7 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { SubhomeComponent } from '../subhome/subhome.component';
 import { WhychooseComponent } from '../subhome/whychoose/whychoose.component';
 import { OurproductComponent } from '../ourproduct/ourproduct.component';
+import { NnuropharmaComponent } from '../nnuropharma/nnuropharma.component';
 
 
 @NgModule({
@@ -55,7 +56,9 @@ import { OurproductComponent } from '../ourproduct/ourproduct.component';
     SubhomeComponent, 
     WhychooseComponent,
     OurproductComponent,
-    FormpageComponent
+    FormpageComponent,
+    NnuropharmaComponent,
+    
     // ComponentToLoad,
   ],
   imports: [
