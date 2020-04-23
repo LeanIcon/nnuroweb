@@ -12,7 +12,8 @@ import { FormpageComponent } from './formpage/formpage.component';
 import { NnurohrComponent } from './nnurohr/nnurohr.component';
 import { NnuroinsuranceComponent } from './nnuroinsurance/nnuroinsurance.component';
 import { NnuropharmaComponent } from './nnuropharma/nnuropharma.component';
-import { NnurohospitalComponent } from './nnurohospital/nnurohospital.component';
+
+import { NnurohospitalsComponent } from './nnurohospitals/nnurohospitals.component';
 
 const routes: Routes = [
   { path: '', loadChildren: './home/home.module#HomeModule' },
@@ -27,6 +28,8 @@ const routes: Routes = [
   { path: 'nnurohr', component: NnurohrComponent },
   { path: 'nnuroinsurance', component: NnuroinsuranceComponent },
   { path: 'nnuropharma', component: NnuropharmaComponent },
+  { path: 'nnurohospitals', component: NnurohospitalsComponent },
+  { path: 'formpage', component: FormpageComponent },
   
 ];
 
