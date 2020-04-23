@@ -33,6 +33,7 @@ import { OurproductComponent } from '../ourproduct/ourproduct.component';
 import { NnuropharmaComponent } from '../nnuropharma/nnuropharma.component';
 import { NnurohrComponent } from '../nnurohr/nnurohr.component';
 import { NnuroinsuranceComponent } from '../nnuroinsurance/nnuroinsurance.component';
+import { NnurohospitalsComponent } from '../nnurohospitals/nnurohospitals.component';
 
 
 @NgModule({
@@ -62,7 +63,7 @@ import { NnuroinsuranceComponent } from '../nnuroinsurance/nnuroinsurance.compon
     NnuropharmaComponent,
     NnuroinsuranceComponent,
     NnurohrComponent,
-    NnurohrComponent,
+    NnurohospitalsComponent
     
     // ComponentToLoad,
   ],
