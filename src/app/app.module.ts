@@ -13,6 +13,7 @@ import { PasswordForgetComponent } from './password-forget/password-forget.compo
 import { HttpClientModule } from '@angular/common/http';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 
+
 @NgModule({
   declarations: [
     AppComponent,

@@ -32,7 +32,10 @@
               "./node_modules/slick-carousel/slick/slick.scss",
               "./node_modules/slick-carousel/slick/slick-theme.scss"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/assets/js/script.js",
+              "./node_modules/jquery/dist/jquery.min.js",
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
