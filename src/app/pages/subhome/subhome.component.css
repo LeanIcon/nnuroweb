@@ -1,0 +1,1182 @@
+.mediaViewInfo {
+    --web-view-name: Web 1920 – 1;
+    --web-view-id: Web_1920___1;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Web_1920___1;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Web_1920___1 {
+    position: absolute;
+    width: 1920px;
+    height: 3764px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: Web 1920 – 1;
+    --web-view-id: Web_1920___1;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+#mobile_health_tech_orig {
+    position: absolute;
+    width: 1920px;
+    height: 1162px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#slider2 {
+    position: absolute;
+    width: 2000px;
+    height: 1125.5px;
+    left: -20px;
+    top: 2149px;
+    overflow: visible;
+}
+.Rectangle_10 {
+    position: absolute;
+    overflow: visible;
+    width: 2000px;
+    height: 541px;
+    left: -38px;
+    top: 1788px;
+}
+#Rectangle_12 {
+    opacity: 0.86;
+}
+.Rectangle_12 {
+    position: absolute;
+    overflow: visible;
+    width: 2082px;
+    height: 523px;
+    left: -29px;
+    top: 2329px;
+}
+#OMwXsB {
+    position: absolute;
+    width: 2035px;
+    height: 630px;
+    left: -57px;
+    top: 1162px;
+    overflow: visible;
+}
+#Rectangle_5 {
+    opacity: 0.68;
+}
+.Rectangle_5 {
+    position: absolute;
+    overflow: visible;
+    width: 1934px;
+    height: 372px;
+    left: 0px;
+    top: 793px;
+}
+#Path_1 {
+    opacity: 0.73;
+}
+.Path_1 {
+    overflow: visible;
+    position: absolute;
+    width: 2059.784px;
+    height: 828.841px;
+    left: -57px;
+    top: -33.841px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Nnuro_Logo {
+    position: absolute;
+    width: 185px;
+    height: 119px;
+    left: 207px;
+    top: 49px;
+    overflow: visible;
+}
+#Rectangle_1 {
+    opacity: 0.61;
+}
+.Rectangle_1 {
+    position: absolute;
+    overflow: visible;
+    width: 1507px;
+    height: 5px;
+    left: 207px;
+    top: 205px;
+}
+#Home_ {
+    position: absolute;
+    left: 603px;
+    top: 109px;
+    overflow: visible;
+    width: 94px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+#_Wholesalers {
+    position: absolute;
+    left: 767px;
+    top: 109px;
+    overflow: visible;
+    width: 186px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+#Products {
+    position: absolute;
+    left: 1044px;
+    top: 109px;
+    overflow: visible;
+    width: 129px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+#News {
+    position: absolute;
+    left: 1243px;
+    top: 109px;
+    overflow: visible;
+    width: 81px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+#About_Us {
+    position: absolute;
+    left: 1394px;
+    top: 109px;
+    overflow: visible;
+    width: 132px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+.Rectangle_2 {
+    position: absolute;
+    overflow: visible;
+    width: 38px;
+    height: 9px;
+    left: 603px;
+    top: 165px;
+}
+#The_future_of_digital_health_c {
+    position: absolute;
+    left: 209px;
+    top: 342px;
+    overflow: visible;
+    width: 940px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    color: rgba(255,255,255,1);
+}
+#Help_ {
+    position: absolute;
+    left: 1455px;
+    top: 57px;
+    overflow: visible;
+    width: 35px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+#Terms_and_conditions_ {
+    position: absolute;
+    left: 1525px;
+    top: 57px;
+    overflow: visible;
+    width: 143px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+}
+.ic_search_24px {
+    overflow: visible;
+    position: absolute;
+    width: 17.49px;
+    height: 17.49px;
+    left: 1697px;
+    top: 57px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Group_1 {
+    position: absolute;
+    width: 158px;
+    height: 48px;
+    left: 207px;
+    top: 613px;
+    overflow: visible;
+}
+.Rectangle_3 {
+    position: absolute;
+    overflow: visible;
+    width: 156px;
+    height: 2px;
+    left: 2px;
+    top: 46px;
+}
+#I_want_more {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    width: 159px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Ebrima;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(0,150,50,1);
+}
+#Group_2 {
+    transform: matrix(1,0,0,1,144,508) rotate(180deg);
+    transform-origin: center;
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.ic_arrow_upward_24px {
+    overflow: visible;
+    position: absolute;
+    width: 16.759px;
+    height: 16.759px;
+    left: 9.845px;
+    top: 10.202px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Ellipse_1 {
+    position: absolute;
+    overflow: visible;
+    width: 37px;
+    height: 37px;
+    left: 0px;
+    top: 0px;
+}
+#Group_3 {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: 144px;
+    top: 384px;
+    overflow: visible;
+}
+.ic_arrow_upward_24px_ba {
+    overflow: visible;
+    position: absolute;
+    width: 16.759px;
+    height: 16.759px;
+    left: 10.039px;
+    top: 10.188px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Ellipse_1_bb {
+    position: absolute;
+    overflow: visible;
+    width: 37px;
+    height: 37px;
+    left: 0px;
+    top: 0px;
+}
+#Repeat_Grid_4 {
+    position: absolute;
+    width: 1466px;
+    height: 246px;
+    left: 255px;
+    top: 837px;
+    overflow: hidden;
+}
+#Repeat_Grid_4_0 {
+    position: absolute;
+    width: 331px;
+    height: 228px;
+    left: 3px;
+    top: 6px;
+    overflow: visible;
+}
+#ID342eaba8_79ff_440e_8858_d41b {
+    filter: drop-shadow(6px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 331px;
+    height: 228px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Repeat_Grid_4_1 {
+    position: absolute;
+    width: 331px;
+    height: 228px;
+    left: 372px;
+    top: 6px;
+    overflow: visible;
+}
+#ID342eaba8_79ff_440e_8858_d41b_bg {
+    filter: drop-shadow(6px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 331px;
+    height: 228px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Repeat_Grid_4_2 {
+    position: absolute;
+    width: 331px;
+    height: 228px;
+    left: 741px;
+    top: 6px;
+    overflow: visible;
+}
+#ID342eaba8_79ff_440e_8858_d41b_bi {
+    filter: drop-shadow(6px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 331px;
+    height: 228px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Repeat_Grid_4_3 {
+    position: absolute;
+    width: 331px;
+    height: 228px;
+    left: 1110px;
+    top: 6px;
+    overflow: visible;
+}
+#ID342eaba8_79ff_440e_8858_d41b_bk {
+    filter: drop-shadow(6px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    width: 331px;
+    height: 228px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+.ic_keyboard_arrow_right_24px {
+    overflow: visible;
+    position: absolute;
+    width: 23.334px;
+    height: 37.787px;
+    left: 1720.874px;
+    top: 1097.69px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.ic_keyboard_arrow_right_24px_bm {
+    overflow: visible;
+    position: absolute;
+    width: 23.334px;
+    height: 37.787px;
+    left: 1661.5px;
+    top: 1097.69px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_6 {
+    opacity: 0.73;
+}
+.Rectangle_6 {
+    position: absolute;
+    overflow: visible;
+    width: 1545px;
+    height: 521px;
+    left: 199px;
+    top: 1217px;
+}
+#Group_8 {
+    position: absolute;
+    width: 468px;
+    height: 575px;
+    left: 1205px;
+    top: 1262px;
+    overflow: visible;
+}
+.Rectangle_7 {
+    filter: drop-shadow(7px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 486px;
+    height: 455px;
+    left: 0px;
+    top: 138px;
+}
+#Rectangle_8 {
+    opacity: 0.75;
+}
+.Rectangle_8 {
+    position: absolute;
+    overflow: visible;
+    width: 468px;
+    height: 134px;
+    left: 0px;
+    top: 0px;
+}
+#Hello_Nnuro_help_me_find {
+    position: absolute;
+    left: 1268px;
+    top: 1427px;
+    overflow: visible;
+    width: 349px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(0,6,2,1);
+}
+#Group_4 {
+    position: absolute;
+    width: 395px;
+    height: 56px;
+    left: 1238px;
+    top: 1496px;
+    overflow: visible;
+}
+.Rectangle_9 {
+    position: absolute;
+    overflow: visible;
+    width: 395px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+}
+#Name_of_Drug {
+    opacity: 0.19;
+    position: absolute;
+    left: 25px;
+    top: 16px;
+    overflow: visible;
+    width: 132px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0,6,2,1);
+}
+#Group_5 {
+    position: absolute;
+    width: 395px;
+    height: 56px;
+    left: 1238px;
+    top: 1580px;
+    overflow: visible;
+}
+.Rectangle_9_bw {
+    position: absolute;
+    overflow: visible;
+    width: 395px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+}
+#Phone_Number {
+    opacity: 0.19;
+    position: absolute;
+    left: 25px;
+    top: 16px;
+    overflow: visible;
+    width: 142px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0,6,2,1);
+}
+.Rectangle_9_by {
+    position: absolute;
+    overflow: visible;
+    width: 395px;
+    height: 56px;
+    left: 1238px;
+    top: 1660px;
+}
+#Email {
+    opacity: 0.19;
+    position: absolute;
+    left: 1263px;
+    top: 1676px;
+    overflow: visible;
+    width: 52px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0,6,2,1);
+}
+#ic_mail_outline_24px {
+    opacity: 0.16;
+}
+.ic_mail_outline_24px {
+    overflow: visible;
+    position: absolute;
+    width: 28.539px;
+    height: 22.832px;
+    left: 1587px;
+    top: 1676.168px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#ic_call_24px {
+    opacity: 0.16;
+}
+.ic_call_24px {
+    overflow: visible;
+    position: absolute;
+    width: 22.618px;
+    height: 22.618px;
+    left: 1587px;
+    top: 1596.382px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#ic_description_24px {
+    opacity: 0.16;
+}
+.ic_description_24px {
+    overflow: visible;
+    position: absolute;
+    width: 19.817px;
+    height: 24.771px;
+    left: 1588px;
+    top: 1510.229px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Rectangle_3_b {
+    position: absolute;
+    overflow: visible;
+    width: 143px;
+    height: 48px;
+    left: 1253px;
+    top: 1755px;
+}
+.Rectangle_16 {
+    position: absolute;
+    overflow: visible;
+    width: 143px;
+    height: 48px;
+    left: 1571px;
+    top: 103px;
+}
+#Send {
+    position: absolute;
+    left: 1298px;
+    top: 1766px;
+    overflow: visible;
+    width: 55px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(255,255,255,1);
+}
+#Sign_in {
+    position: absolute;
+    left: 1608px;
+    top: 114px;
+    overflow: visible;
+    width: 70px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(255,255,255,1);
+}
+#Welcome_To_Nnuro_Your_No_1_App {
+    position: absolute;
+    left: 314px;
+    top: 1286px;
+    overflow: visible;
+    width: 831px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+#Group_7 {
+    position: absolute;
+    width: 20px;
+    height: 319px;
+    left: 268px;
+    top: 1293px;
+    overflow: visible;
+}
+.ic_arrow_drop_down_circle_24px {
+    overflow: visible;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    transform: translate(-268px, -1293px) matrix(1,0,0,1,268,1293) rotate(-90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+.ic_arrow_drop_down_circle_24px_ca {
+    overflow: visible;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    transform: translate(-268px, -1293px) matrix(1,0,0,1,268,1477) rotate(-90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+.ic_arrow_drop_down_circle_24px_cb {
+    overflow: visible;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    transform: translate(-268px, -1293px) matrix(1,0,0,1,268,1592) rotate(-90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+#WHY__CHOOSE_US {
+    position: absolute;
+    left: 243px;
+    top: 1882px;
+    overflow: visible;
+    width: 287px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(0,150,50,1);
+}
+#OUR__SERVICE {
+    position: absolute;
+    left: 247px;
+    top: 2636px;
+    overflow: visible;
+    width: 206px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgba(0,150,50,1);
+}
+#Wholesale___Retail__Wholesale_ {
+    position: absolute;
+    left: 737px;
+    top: 2441px;
+    overflow: visible;
+    width: 388px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+#Technology_Solutions__Healthca {
+    position: absolute;
+    left: 1423px;
+    top: 2441px;
+    overflow: visible;
+    width: 322px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+#Equipment___Supplies__Medical_ {
+    position: absolute;
+    left: 729px;
+    top: 2628px;
+    overflow: visible;
+    width: 398px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+#Business_and_Clinical_Services {
+    position: absolute;
+    left: 1304px;
+    top: 2628px;
+    overflow: visible;
+    width: 441px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(255,255,255,1);
+}
+#DRUG_FINDER {
+    position: absolute;
+    left: 1305px;
+    top: 1306px;
+    overflow: visible;
+    width: 269px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(254,255,254,1);
+}
+#Rectangle_15 {
+    opacity: 0.74;
+}
+.Rectangle_15 {
+    position: absolute;
+    overflow: visible;
+    width: 1112px;
+    height: 1px;
+    left: 632px;
+    top: 2602.5px;
+}
+.Path_2 {
+    overflow: visible;
+    position: absolute;
+    width: 1963px;
+    height: 666.965px;
+    left: -43px;
+    top: 3111px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Group_15 {
+    position: absolute;
+    width: 942px;
+    height: 83px;
+    left: 802px;
+    top: 2943px;
+    overflow: visible;
+}
+.Rectangle_14 {
+    filter: drop-shadow(4px 3px 6px rgba(0, 0, 0, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 378px;
+    height: 101px;
+    left: 582px;
+    top: 0px;
+}
+#CONTACT_US {
+    position: absolute;
+    left: 651px;
+    top: 21px;
+    overflow: visible;
+    width: 219px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(33,36,35,1);
+}
+#So_how_can_we_help_you_ {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    overflow: visible;
+    width: 526px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Script MT;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 53px;
+    color: rgba(33,36,35,1);
+}
+#Group_11 {
+    position: absolute;
+    width: 1427px;
+    height: 534px;
+    left: 317px;
+    top: 3180px;
+    overflow: visible;
+}
+#__Privacy_Policy_About_us_Cont {
+    position: absolute;
+    left: 67px;
+    top: 59px;
+    overflow: visible;
+    width: 163px;
+    white-space: nowrap;
+    line-height: 50px;
+    margin-top: -12.5px;
+    text-align: right;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(0,150,50,1);
+}
+#Information_Our_Policy_About_u {
+    position: absolute;
+    left: 533px;
+    top: 19px;
+    overflow: visible;
+    width: 193px;
+    white-space: nowrap;
+    line-height: 50px;
+    margin-top: -7.5px;
+    text-align: right;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(255,255,255,1);
+}
+#Support_FAQ_Contact_Call_Us {
+    position: absolute;
+    left: 590px;
+    top: 345px;
+    overflow: visible;
+    width: 134px;
+    white-space: nowrap;
+    line-height: 50px;
+    margin-top: -7.5px;
+    text-align: right;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(254,254,254,1);
+}
+#Stay_up_to_date_with_Nnuro__In {
+    position: absolute;
+    left: 901px;
+    top: 19px;
+    overflow: visible;
+    width: 527px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgba(255,255,255,1);
+}
+#Nnuro_Logo_cu {
+    position: absolute;
+    width: 236px;
+    height: 152px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Group_10 {
+    position: absolute;
+    width: 537px;
+    height: 55px;
+    left: 1207px;
+    top: 3383px;
+    overflow: visible;
+}
+.Rectangle_17 {
+    position: absolute;
+    overflow: visible;
+    width: 370px;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+}
+.Rectangle_18 {
+    position: absolute;
+    overflow: visible;
+    width: 160px;
+    height: 55px;
+    left: 377px;
+    top: 0px;
+}
+#Subscribe {
+    position: absolute;
+    left: 414px;
+    top: 16px;
+    overflow: visible;
+    width: 96px;
+    white-space: nowrap;
+    line-height: 50px;
+    margin-top: -15px;
+    text-align: right;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+.Path_5 {
+    overflow: visible;
+    position: absolute;
+    width: 18.404px;
+    height: 18.403px;
+    left: 1725.6px;
+    top: 3594.836px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Group_16 {
+    position: absolute;
+    width: 53px;
+    height: 22px;
+    left: 163px;
+    top: 729px;
+    overflow: visible;
+}
+#Ellipse_2 {
+    opacity: 0.46;
+}
+.Ellipse_2 {
+    position: absolute;
+    overflow: visible;
+    width: 22px;
+    height: 22px;
+    left: 31px;
+    top: 0px;
+}
+.Ellipse_3 {
+    position: absolute;
+    overflow: visible;
+    width: 22px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+}
+#Group_14 {
+    position: absolute;
+    width: 15.319px;
+    height: 15.278px;
+    left: 1727.396px;
+    top: 3665.518px;
+    overflow: visible;
+}
+.Path_23 {
+    overflow: visible;
+    position: absolute;
+    width: 3.685px;
+    height: 3.665px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Path_24 {
+    overflow: visible;
+    position: absolute;
+    width: 3.167px;
+    height: 10.206px;
+    left: 0.249px;
+    top: 5.072px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Path_25 {
+    overflow: visible;
+    position: absolute;
+    width: 9.896px;
+    height: 10.454px;
+    left: 5.424px;
+    top: 4.823px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Path_3 {
+    overflow: visible;
+    position: absolute;
+    width: 19.232px;
+    height: 15.629px;
+    left: 1725px;
+    top: 3698.463px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Path_4 {
+    overflow: visible;
+    position: absolute;
+    width: 9.544px;
+    height: 18.568px;
+    left: 1730.391px;
+    top: 3628.38px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_11 {
+    opacity: 0.74;
+}
+.Rectangle_11 {
+    position: absolute;
+    overflow: visible;
+    width: 1569px;
+    height: 18px;
+    left: 194px;
+    top: 2320px;
+}
+#ID2020___NNURO___LiTT_ {
+    position: absolute;
+    left: 317px;
+    top: 3687px;
+    overflow: visible;
+    width: 223px;
+    white-space: nowrap;
+    text-align: right;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 1.5px;
+}
+#Group_41 {
+    position: absolute;
+    width: 1458px;
+    height: 164px;
+    left: 258px;
+    top: 2067px;
+    overflow: visible;
+}
+.ic_monetization_on_24px {
+    overflow: visible;
+    position: absolute;
+    width: 81.845px;
+    height: 81.845px;
+    left: 1375px;
+    top: 9px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.ic_update_24px {
+    overflow: visible;
+    position: absolute;
+    width: 80.612px;
+    height: 80.618px;
+    left: 907px;
+    top: 9px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.ic_verified_user_24px {
+    overflow: visible;
+    position: absolute;
+    width: 74.455px;
+    height: 91px;
+    left: 558px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.ic_people_24px {
+    overflow: visible;
+    position: absolute;
+    width: 131.455px;
+    height: 83.653px;
+    left: 137px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#MEMBER_SUPPORT {
+    position: absolute;
+    left: 0px;
+    top: 129px;
+    overflow: visible;
+    width: 275px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(0,150,50,1);
+}
+#_TRUSTED {
+    position: absolute;
+    left: 488px;
+    top: 129px;
+    overflow: visible;
+    width: 145px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(0,150,50,1);
+}
+#_CONVENIENT {
+    position: absolute;
+    left: 794px;
+    top: 129px;
+    overflow: visible;
+    width: 202px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(0,150,50,1);
+}
+#COMPETITIVE_RATE {
+    position: absolute;
+    left: 1178px;
+    top: 129px;
+    overflow: visible;
+    width: 281px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(0,150,50,1);
+}

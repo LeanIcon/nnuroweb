@@ -15,35 +15,59 @@
                     <a data="" routerLink="/"  class="nav-link text-white">HOME</a>
                 </li>
             
+        
+                <li class="nav-item">
+                    <a data=""  routerLink="/formpage" class="nav-link text-white">WHOLESALERS</a>
+                </li>
+                <li class="nav-item" ngbDropdown>
+        <a routerLink="/ourproduct" class="nav-link text-white" style="cursor: pointer" ngbDropdownToggle id="navbarDropdown1" role="button">
+          PRODUCTS
+        </a>
+        <div ngbDropdownMenu aria-labelledby="navbarDropdown1" class="dropdown-menu">
+          <a ngbDropdownItem routerLink="/nnuropharma" (click)="$event.preventDefault()">NNURO PHARMA</a>
+          <a ngbDropdownItem routerLink="/nnurohr" (click)="$event.preventDefault()">NNURO HR</a>
+          <a ngbDropdownItem routerLink="/nnuroinsurance" (click)="$event.preventDefault()">NNURO INSURANCE</a>
+          <a ngbDropdownItem routerLink="nnurohospital" (click)="$event.preventDefault()">NNURO HOSPITAL</a>
+        </div>
+      </li>
+              <!--   <li class="nav-item">
+                    <a data="" routerLink="/ourproduct" class="nav-link text-white">OUR PRODUCTS</a>
+                </li>-->
                 <li class="nav-item">
                     <a data=""  routerLink="/news" class="nav-link text-white">NEWS</a>
                 </li>
-                <li class="nav-item">
-                    <a data=""  routerLink="/covid" class="nav-link text-white">COVID-19</a>
-                </li>
-                <li class="nav-item">
+               <!-- <li class="nav-item">
                     <a data="" routerLink="/services" class="nav-link text-white">SERVICES</a>
-                </li>
-                <li class="nav-item">
+                </li>-->
+               <!--<li class="nav-item">
                     <a data="" routerLink="/about" class="nav-link text-white">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a data="" routerLink="/shop" class="nav-link text-white">SHOP</a>
-                </li>
-                
+                </li>-->
+                 <li class="nav-item" ngbDropdown>
+        <a routerLink="/about" class="nav-link text-white" style="cursor: pointer" ngbDropdownToggle id="navbarDropdown1" role="button">
+          ABOUT
+        </a>
+        <div ngbDropdownMenu aria-labelledby="navbarDropdown1" class="dropdown-menu">
+          <a ngbDropdownItem routerLink="/contact" (click)="$event.preventDefault()">Contact Us</a>
+           </div>
+      </li>
+               
             </ul>
             <ul>
                 
             </ul>
+            
             <div class="nav-button ml-auto">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <form class="form form-inline">
-                            <input type="text" class="form-control mr-2" placeholder="Search" aria-label="Search" style="height: 40px !important;">
+                            <input type="text" class="form-control mr-8" placeholder="Search" aria-label="Search" style="height: 40px !important;">
                           </form>
                     </li>
                     <li>
-                        <button type="button" class="btn btn-custom navbar-btn btn-rounded waves-effect waves-light">Login</button>
+                        <a href="/login"><button type="button" class="btn btn-custom navbar-btn btn-rounded waves-effect waves-light">Login</button></a>
+                    </li>
+                     <li>
+                        <a href="/register"><button type="button" class="btn btn-custom navbar-btn btn-rounded waves-effect waves-light">Register</button></a>
                     </li>
                 </ul>
             </div>

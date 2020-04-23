@@ -2,6 +2,7 @@ import { Component, Injectable, AfterViewInit } from '@angular/core';
 import { ScrollSpyService } from 'ngx-scrollspy';
 import { Router } from '@angular/router';
 
+
 @Injectable()
 @Component({
   selector: 'app-header',

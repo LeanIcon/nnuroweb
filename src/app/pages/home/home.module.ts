@@ -27,6 +27,12 @@ import { HomeAboutComponent } from '../home-about/home-about.component';
 // import { ComponentToLoad } from './dir/dirfile.component';
 import { ShopComponent } from '../shop/shop.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { SubhomeComponent } from '../subhome/subhome.component';
+import { WhychooseComponent } from '../subhome/whychoose/whychoose.component';
+import { OurproductComponent } from '../ourproduct/ourproduct.component';
+import { NnuropharmaComponent } from '../nnuropharma/nnuropharma.component';
+import { NnurohrComponent } from '../nnurohr/nnurohr.component';
+import { NnuroinsuranceComponent } from '../nnuroinsurance/nnuroinsurance.component';
 
 
 @NgModule({
@@ -49,7 +55,15 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     PrivacyPolicyComponent,
     HomeAboutComponent,
     ShopComponent,
+    SubhomeComponent, 
+    WhychooseComponent,
+    OurproductComponent,
     FormpageComponent,
+    NnuropharmaComponent,
+    NnuroinsuranceComponent,
+    NnurohrComponent,
+    NnurohrComponent,
+    
     // ComponentToLoad,
   ],
   imports: [
